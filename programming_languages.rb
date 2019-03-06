@@ -40,7 +40,7 @@ def reformat_languages(languages)
         if hash[language].nil?
           hash[language] = {}
         end
-        hash[language][:stsyle] ||= []
+        hash[language][:style] ||= []
         hash[language][:style] << oo_functional
         if hash[language][attribute].nil?
           hash[language][attribute] = string_val
